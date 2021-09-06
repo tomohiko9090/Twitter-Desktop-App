@@ -1,6 +1,6 @@
 # Twitter Desktop App
  
-「Twitter Desktop App」は、 Twitterをデスクトップアプリで ログイン -> ツイート -> DBにツイート内容を記録 までボタン1つで行えるアプリです。
+Twitterをデスクトップアプリで ログイン -> ツイート -> DBにツイート内容を記録 までをボタン1つで行うことのできるアプリです。
  
 # DEMO
 例)カテゴリーを「Python」にし、Tweetする場合 
