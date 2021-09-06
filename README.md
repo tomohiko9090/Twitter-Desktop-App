@@ -55,7 +55,8 @@ http://127.0.0.1:8080/character/list
 ユーザが所持しているキャラクター一覧情報を取得します。
 
 ## RDB
-![スクリーンショット 0003-08-29 午後1 26 42](https://user-images.githubusercontent.com/66200485/131238407-957730f7-0f0d-48d9-a491-30e53a401522.png)
+![スクリーンショット 0003-09-06 午後5 06 08](https://user-images.githubusercontent.com/66200485/132182523-dedb9e0b-a71c-4813-99cb-0066602acc91.png)
+
 
 # Directory Structure
 ![スクリーンショット 0003-08-29 午後1 29 59](https://user-images.githubusercontent.com/66200485/131238485-d64d0ade-8c53-4f68-a633-5b2fcd94058c.png)
