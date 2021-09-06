@@ -1,6 +1,8 @@
 # Twitter Desktop App
  
-Twitterをデスクトップアプリで ログイン -> ツイート -> DBにツイート内容を記録 までをボタン1つで行うことのできるアプリです。
+Twitterをデスクトップアプリで、  
+ログイン -> ツイート -> DBにツイート内容を記録  
+までをボタン1つで行うことのできるアプリです。
  
 # DEMO
 例)カテゴリーを「Python」にし、Tweetする場合 
@@ -26,28 +28,30 @@ Twitterをデスクトップアプリで ログイン -> ツイート -> DBに�
 
 6. Chromが閉じる  
 
-## RDB
+# RDB
 ![スクリーンショット 0003-09-06 午後5 06 08](https://user-images.githubusercontent.com/66200485/132182523-dedb9e0b-a71c-4813-99cb-0066602acc91.png)  
 <br>
 
 データベースの確認
 ```bash
 $ sqlite3 database.db
-sqlite3 > select * from tweet_data;
+sqlite3 > SELECT * FROM tweet_data;
 ```
+
+
 
 # Requirement
  
 **言語**：Python 3.8.8  
-**フレームワーク**：  
+**フレームワーク**：Tkinter 8.6  
 **開発環境**：MacOS  
-**DB**：SQlite  
-**ライブラリ**：  
+**DB**：SQlite3    
 
 # Installation
  
 # Usage
  
+## APP
 1. このリポジトリをclone
 ```bash
 git clone https://github.com/tomohiko9090/Twitter-Desktop-App.git
@@ -61,7 +65,21 @@ cd Twitter-Desktop-App
 ```bash
 python3 main.py
 ```
- 
+
+## DB
+1. SQlite3に入る
+```bash
+sqlite3 database.db
+```
+2. 閲覧したいカテゴリーを全て取得
+```bash
+sqlite3 > SELECT * FROM tweet_data where ;
+```
+
+## Next
+1. カテゴリーを選択すると、アプリ上でデータベースの内容が簡単に閲覧できるようにする
+
+
 # Author
  
 * 作成者 Hikotomo!
