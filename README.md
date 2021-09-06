@@ -21,7 +21,7 @@
 4. ツイート内容が自動で入力、ツイートボタンが押される  
 ![スクリーンショット 0003-09-06 午後4 55 56](https://user-images.githubusercontent.com/66200485/132181278-2c9f24cd-a4b9-477f-a546-6c8a0e442068.png)
 
-5. ツイートが更新  
+5. ツイートが更新される  
 ![スクリーンショット 0003-09-06 午後4 56 31](https://user-images.githubusercontent.com/66200485/132181325-f2d232b8-113f-4e17-ad21-0a26bbf039cd.png)
 
 6. Chromが閉じる  
