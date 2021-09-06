@@ -27,7 +27,14 @@
 6. Chromが閉じる  
 
 ## RDB
-![スクリーンショット 0003-09-06 午後5 06 08](https://user-images.githubusercontent.com/66200485/132182523-dedb9e0b-a71c-4813-99cb-0066602acc91.png)
+![スクリーンショット 0003-09-06 午後5 06 08](https://user-images.githubusercontent.com/66200485/132182523-dedb9e0b-a71c-4813-99cb-0066602acc91.png)  
+<br>
+
+データベースの確認
+```bash
+$ sqlite3 database.db
+sqlite3 > select * from tweet_data;
+```
 
 # Requirement
  
