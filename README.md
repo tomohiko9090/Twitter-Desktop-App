@@ -67,17 +67,20 @@ python3 main.py
 ```
 
 ## DB
-1. SQlite3に入る
+1. sqlite3に入る
 ```bash
 sqlite3 database.db
 ```
 2. 閲覧したいカテゴリーを全て取得
+ex. カテゴリー「Python」のメモを取得
 ```bash
-sqlite3 > SELECT * FROM tweet_data where ;
+sqlite3 > SELECT * FROM tweet_data where category_code = 1;
 ```
 
 ## Next
-1. カテゴリーを選択すると、アプリ上でデータベースの内容が簡単に閲覧できるようにする
+1. MVCモデルにファイルを分けて、機能を追加しやすいようにする
+2. カテゴリーを選択すると、アプリ上でデータベースを閲覧できるようにする
+3. アカウントとパスワードを変更し、Tweetできるようにする
 
 
 # Author
