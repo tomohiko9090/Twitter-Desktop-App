@@ -6,24 +6,25 @@
 例)カテゴリーを「Python」にし、Tweetする場合 
 <br>
 
-1. main.pyを実行します。  
-![スクリーンショット 0003-09-06 午後4 39 00](https://user-images.githubusercontent.com/66200485/132179702-b2d33311-a69b-4dfc-bcbc-8784d2954808.png) 
+1. main.pyを実行
+![スクリーンショット 0003-09-06 午後4 38 01](https://user-images.githubusercontent.com/66200485/132179855-c7124c9f-30b1-4cf3-aa57-13876b3e0d40.png)
 <br>
 
-2. Headerに「token」, Bodyに「times」(ガチャを引きたい回数)を入れてリクエストします。     
-<img width="351" alt="スクリーンショット 0003-08-23 午後10 03 16" src="https://user-images.githubusercontent.com/66200485/130452035-bfca7dc4-9ca5-4fc3-b5a8-b376e251d67d.png">
-<img width="608" alt="スクリーンショット 0003-08-23 午後10 05 55" src="https://user-images.githubusercontent.com/66200485/130452347-60a97578-c06a-4ac3-a473-af7e8e10b0b7.png">
-
+2. カテゴリーを選択し、ツイートしたい内容を記入し、「Tweetボタン」をクリック
+![スクリーンショット 0003-09-06 午後4 39 00](https://user-images.githubusercontent.com/66200485/132179983-9f97a3a7-1ce6-4f78-b09d-6803de07aa69.png)
 <br>
 
-3. 当たったキャラクターがJSON形式でレスポンスされます。  
-<img width="378" alt="スクリーンショット 0003-08-23 午後10 08 26" src="https://user-images.githubusercontent.com/66200485/130452706-9fbbafa7-966f-4d9a-9e7f-ab902499651f.png">
-
+3. Chromが開き、Twitterがログインされる
+![スクリーンショット 0003-09-06 午後4 40 12](https://user-images.githubusercontent.com/66200485/132180132-f8271a0d-6658-410d-b381-f345d0a2e644.png)
 <br>
-![IMG_0223](https://user-images.githubusercontent.com/66200485/128810672-bc73e645-3abb-410c-bc3b-20dd6d759883.JPG)  
- イメージ画像  
- (この画像は実装されていません。)  
- (僕のうちで飼っているカメです。)
+
+4. ツイート内容が自動で入力、ツイートボタンが押される
+![スクリーンショット 0003-09-06 午後4 55 56](https://user-images.githubusercontent.com/66200485/132181278-2c9f24cd-a4b9-477f-a546-6c8a0e442068.png)
+
+5. ツイートが更新
+![スクリーンショット 0003-09-06 午後4 56 31](https://user-images.githubusercontent.com/66200485/132181325-f2d232b8-113f-4e17-ad21-0a26bbf039cd.png)
+
+6. Chromが閉じる
 
 # Features 
  
