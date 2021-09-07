@@ -56,8 +56,6 @@ sqlite3 > SELECT * FROM tweet_data;
 **フレームワーク**：Tkinter 8.6  
 **開発環境**：MacOS  
 **DB**：SQlite3    
-
-# Installation
  
 # Usage
  
